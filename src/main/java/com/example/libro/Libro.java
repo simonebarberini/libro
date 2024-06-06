@@ -8,7 +8,7 @@ import jakarta.persistence.Id;
 @Entity
 public class Libro {
     @Id
-    @GeneratedValue(strategy =  GenerationType.IDENTITY)
+    @GeneratedValue(strategy =  GenerationType.IDENTITY)//campo della chiave primaria della tabbella
     private Long id;
     private String titolo;
     private String autore;
